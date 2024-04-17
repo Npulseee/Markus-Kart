@@ -14,4 +14,5 @@ jobs:
           DISCORD_WEBHOOK: https://discord.com/api/webhooks/1230191261718413403/UXnibHkx1rcBAO01F2BQ9v6gs0tkNMoyxqAi5xkdinhIZ_bc4PPxN9A5tppvsd2c1_C-
        uses: Ilshidur/action-discord@master
        with:
-          args: "# A new release for Markus Kart just dropped🎉\n${{github.event.release.body}}\n${{ github.event.release.html_url }}" 
+       #${{github.event.release.body}}
+          args: "## A new release for Markus Kart is now available (${{github.event.release.tag_name}})🎉\n${{ github.event.release.html_url }}" 
