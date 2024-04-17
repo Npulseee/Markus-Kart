@@ -14,4 +14,4 @@ jobs:
           DISCORD_WEBHOOK: https://discord.com/api/webhooks/1230191261718413403/UXnibHkx1rcBAO01F2BQ9v6gs0tkNMoyxqAi5xkdinhIZ_bc4PPxN9A5tppvsd2c1_C-
        uses: Ilshidur/action-discord@master
        with:
-          args: "New release: ${{ github.repository }} ${{GITHUB_REF#refs/tags/}} was published! Check it out at ${{GITHUB_SERVER_URL}}/${{GITHUB_REPOSITORY}}/releases}}"
+          args: "New release: ${{ github.repository }} ${{ github.ref }} was published! Check it out at ${{ github.event.release.html_url }}"
