@@ -1,0 +1,16 @@
+name: Notify Discord on Release
+
+on:
+  release:
+    types: 
+      - create
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post to Discord
+        uses: Ilshidur/action-discord@master
+        with:
+          webhook_url: https://discord.com/api/webhooks/1230191261718413403/UXnibHkx1rcBAO01F2BQ9v6gs0tkNMoyxqAi5xkdinhIZ_bc4PPxN9A5tppvsd2c1_C-
+          content: "New release: ${{ github.repository }} ${GITHUB_REF#refs/tags/} was published! Check it out at ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases/${GITHUB_REF#refs/tags/}"
