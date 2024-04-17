@@ -15,8 +15,7 @@ jobs:
 
       - name: Create Zip
         run: |
-          # Replace the following command with your script to create the .zip file
-          zip -r release.zip path/to/your/files
+          zip -r release.zip .
 
       - name: Upload Zip
         uses: actions/upload-artifact@v2
