@@ -11,7 +11,7 @@ jobs:
     steps:
      - name: Discord notification
        env:
-          DISCORD_WEBHOOK: https://discord.com/api/webhooks/1230191261718413403/UXnibHkx1rcBAO01F2BQ9v6gs0tkNMoyxqAi5xkdinhIZ_bc4PPxN9A5tppvsd2c1_C-
+          DISCORD_WEBHOOK: ${{github.DISCORD_TOKEN}}
        uses: Ilshidur/action-discord@master
        with:
        #${{github.event.release.body}}
