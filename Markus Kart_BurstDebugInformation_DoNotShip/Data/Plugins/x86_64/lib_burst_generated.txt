@@ -16,6 +16,8 @@ Library: G:\Markus-Kart\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --assembly-defines=Unity.VisualScripting.Flow;
 --assembly-defines=Unity.Netcode.Components;
 --assembly-defines=Unity.Timeline;
+--assembly-defines=Unity.InputSystem;
+--assembly-defines=Unity.InputSystem.ForUI;
 --assembly-defines=Unity.Collections;
 --assembly-defines=Unity.Netcode.Runtime;
 --assembly-defines=Unity.Mathematics;
@@ -153,6 +155,8 @@ Library: G:\Markus-Kart\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --assembly-defines=Unity.VisualScripting.Flow;
 --assembly-defines=Unity.Netcode.Components;
 --assembly-defines=Unity.Timeline;
+--assembly-defines=Unity.InputSystem;
+--assembly-defines=Unity.InputSystem.ForUI;
 --assembly-defines=Unity.Collections;
 --assembly-defines=Unity.Netcode.Runtime;
 --assembly-defines=Unity.Mathematics;
