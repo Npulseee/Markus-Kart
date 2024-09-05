@@ -15,4 +15,4 @@ jobs:
        uses: Ilshidur/action-discord@master
        with:
        #${{github.event.release.body}}
-          args: "## A new release for Markus Kart is now available (${{github.event.release.tag_name}}) 🎉\n${{ github.event.release.html_url }}"
+          args: "## A new release for Markus Kart is now available (${{github.event.release.tag_name}}) 🎉\n ${{github.event.release.body}} \n ![Release Image](https://raw.githubusercontent.com/Npulseee/Markus-Kart/main/repository-open-graph-template.png)"
