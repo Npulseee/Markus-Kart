@@ -11,4 +11,4 @@ jobs:
           DISCORD_WEBHOOK: ${{secrets.DISCORD_TOKEN}}
        uses: Ilshidur/action-discord@master
        with:
-          args: "[## A new release for Markus Kart is now available (v0.2.5)](https://www.google.com/search?client=firefox-b-d&q=stehen+igel+unter+naturschutz) 🎉\n- working UI (usually) \n - customizable speed-limit \n - general bug fixes \n [image](https://raw.githubusercontent.com/Npulseee/Markus-Kart/main/repository-open-graph-template.png)"
+          args: "[## A new release for Markus Kart is now available (v0.2.5) 🎉](https://raw.githubusercontent.com/Npulseee/Markus-Kart/main/repository-open-graph-template.png)"
