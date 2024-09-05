@@ -1,6 +1,9 @@
 name: Notify Discord on Release
 
-on:  workflow_dispatch
+on:
+  release:
+    types: 
+      - published
 
 jobs:
   notify:
