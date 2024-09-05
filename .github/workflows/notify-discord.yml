@@ -14,4 +14,4 @@ jobs:
           DISCORD_WEBHOOK: ${{secrets.DISCORD_TOKEN}}
        uses: Ilshidur/action-discord@master
        with:
-          args: "### A new release for Markus Kart is now available (${{github.event.release.tag_name}}) 🎉\n ${{github.event.release.body}} \n https://raw.githubusercontent.com/Npulseee/Markus-Kart/main/repository-open-graph-template.png"
+          args: "### A new release for Markus Kart is now available (${{github.event.release.tag_name}}) 🎉\n ${{github.event.release.body}} \n []https://raw.githubusercontent.com/Npulseee/Markus-Kart/main/repository-open-graph-template.png"
